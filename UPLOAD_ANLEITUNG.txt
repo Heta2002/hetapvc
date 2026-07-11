@@ -1,0 +1,22 @@
+HETA WEBSITE – KOMPLETTE VERSION
+
+WICHTIG:
+Lade auf GitHub ALLE Dateien und den Ordner assets hoch:
+
+- index.html
+- styles.css
+- script.js
+- impressum.html
+- datenschutz.html
+- danke.html
+- assets/heta-logo.png
+
+Nicht nur index.html hochladen.
+
+Kontaktformular:
+Beim ersten Test sendet FormSubmit eine Bestätigungs-E-Mail an info@hetapvc.de.
+Diese E-Mail einmal bestätigen. Danach funktionieren Anfragen automatisch.
+
+WhatsApp:
+Der WhatsApp-Button öffnet direkt den Chat mit +38346120611.
+Die Nummer ist auf der Website nicht sichtbar.

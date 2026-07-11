@@ -59,7 +59,7 @@
         <aside class="hero-card reveal delay-1">
           <img src="assets/heta-logo.png" alt="HETA Company" />
           <p>Ihr Partner für moderne Bauelemente</p>
-          <a href="mailto:info@hetapvc.de<br><a class="btn" href="https://wa.me/38346120611">💬 WhatsApp</a><br>">info@hetapvc.de<br></a>
+          <a href="mailto:info@hetapvc.de">info@hetapvc.de</a><br>">info@hetapvc.de<br></a>
         </aside>
       </div>
       <div class="scroll-note">Mehr entdecken <span>↓</span></div>
@@ -69,7 +69,7 @@
       <div class="container intro-grid">
         <div class="section-heading reveal">
           <p class="eyebrow dark">Unsere Kompetenz</p>
-          <h2>Moderne Lösungen für Neubau und Renovierung.</h2>
+          <h2>Moderne Lösungen für Fenster und Türen.</h2>
         </div>
         <p class="lead reveal delay-1">
           HETA verbindet saubere Verarbeitung, zeitloses Design und persönliche Beratung.
@@ -187,12 +187,19 @@
             und erstellen ein passendes Angebot.
           </p>
           <div class="quote-contact">
-            <a href="mailto:info@hetapvc.de<br>">info@hetapvc.de<br></a>
+            <a href="mailto:info@hetapvc.de">info@hetapvc.de</a>
             <span>Antwort in der Regel innerhalb von 24 Stunden</span>
           </div>
         </div>
 
-        <form class="quote-form reveal delay-1" action="mailto:info@hetapvc.de<br>" method="post" enctype="text/plain">
+        <form class="quote-form reveal delay-1"
+              action="https://formsubmit.co/info@hetapvc.de"
+              method="POST">
+          <input type="hidden" name="_subject" value="Neue Angebotsanfrage über hetapvc.de">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="_next" value="https://heta2002.github.io/hetapvc/danke.html">
+
           <div class="form-row">
             <label>
               Name
@@ -203,10 +210,12 @@
               <input type="tel" name="Telefon" placeholder="+49 ..." />
             </label>
           </div>
+
           <label>
             E-Mail
             <input type="email" name="E-Mail" placeholder="name@beispiel.de" required />
           </label>
+
           <label>
             Wofür interessieren Sie sich?
             <select name="Interesse">
@@ -217,12 +226,14 @@
               <option>Komplettangebot</option>
             </select>
           </label>
+
           <label>
             Nachricht
-            <textarea name="Nachricht" rows="5" placeholder="Beschreiben Sie kurz Ihr Projekt ..."></textarea>
+            <textarea name="Nachricht" rows="5" placeholder="Beschreiben Sie kurz Ihr Projekt ..." required></textarea>
           </label>
-          <button class="btn btn-gold full" type="submit">Anfrage per E-Mail senden</button>
-          <small>Mit dem Absenden öffnet sich Ihr E-Mail-Programm.</small>
+
+          <button class="btn btn-gold full" type="submit">Anfrage senden</button>
+          <small>Ihre Anfrage wird direkt an info@hetapvc.de gesendet.</small>
         </form>
       </div>
     </section>
@@ -232,14 +243,18 @@
         <div class="contact-card reveal">
           <p class="eyebrow dark">Kontakt</p>
           <h2>Wir freuen uns auf Ihr Projekt.</h2>
-          <a href="mailto:info@hetapvc.de<br>">info@hetapvc.de<br></a>
+          <a href="mailto:info@hetapvc.de">info@hetapvc.de</a>
           <p>Deutschland</p>
         </div>
 
-        <a class="whatsapp-card reveal delay-1" href="#" aria-label="WhatsApp-Link später einfügen">
+        <a class="whatsapp-card reveal delay-1"
+           href="https://wa.me/38346120611?text=Guten%20Tag%2C%20ich%20interessiere%20mich%20f%C3%BCr%20Ihre%20Fenster%20und%20T%C3%BCren."
+           target="_blank"
+           rel="noopener"
+           aria-label="HETA über WhatsApp kontaktieren">
           <span>Direkter Kontakt</span>
           <strong>WhatsApp</strong>
-          <p>Telefonnummer noch eintragen</p>
+          <p>Jetzt unverbindlich schreiben</p>
           <b>↗</b>
         </a>
       </div>
